@@ -1,0 +1,12 @@
+.custom-input-group input{
+    height: 30px;
+    padding: 3px;
+}
+.custom-input-group button{
+    height: 30px;
+    padding: 3px;
+}
+.breadcrumb{
+    border: none;
+    background-color: #f2f2f2;
+}

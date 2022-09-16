@@ -1,0 +1,137 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 60px;
+  }
+}
+
+.section-pad {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+@media (max-width: 576px) {
+  .section-pad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.section-mt {
+  margin-top: 70px;
+}
+
+@media (max-width: 576px) {
+  .section-mt {
+    margin-top: 50px;
+  }
+}
+
+#banner {
+  background: url("../../assets/img/banner2-dark.jpg?h=18834b0a5040c2b9de908fe37c3b69c9") left / cover no-repeat;
+  background-attachment: fixed;
+}
+
+.heading-1 {
+  font-family: Roboto, sans-serif;
+}
+
+.font-custom {
+  font-family: Charmonman, cursive;
+}
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+
+.fancy span {
+  display: inline-block;
+  position: relative;
+}
+
+.fancy span:before, .fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid #377799;
+  top: 5px;
+  width: 30px;
+}
+
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.color-dark-blue {
+  color: #377799;
+}
+
+.how-it-works img {
+  height: 50px;
+}
+
+.how-it-works .item-container {
+  box-shadow: 5px 5px 10px #e6e6e6;
+  border-radius: 0px 40px 0px 40px;
+  border: 0.5px solid #f2f2f2;
+}
+
+.how-it-works .item-container:hover {
+  box-shadow: 2px 2px 5px #eaeaea;
+  background-color: #eef9ff;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  /*transition: background-color 3s ease-out;*/
+}
+
+.item-container:hover img {
+  height: 55px;
+  transition: 1s ease;
+}
+
+.text {
+  margin-bottom: 30px;
+  line-height: 1.7em;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.odometer span {
+  background-color: #efefef;
+  border: 0.5px solid #e0e0e0;
+  margin: 2px;
+  padding: 0px 5px;
+  height: 30px !important;
+}
+
+.odometer {
+  margin-bottom: 15px;
+}
+
+.color-dark-blue {
+  color: #1f9ed9;
+}
+
+#scroll_to_top {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="MarvisLab" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ShopCashing- </title>
+		 
+        <!-- Custom CSS -->
+        <link href="assets/css/styles.css" rel="stylesheet">
+		
+    </head>
+	
+    <body>
+
+        <!-- ============================================================== -->
+        <!-- Main wrapper - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <div id="main-wrapper">
+		
+            <!-- ============================================================== -->
+            <!-- Top header  -->
+            <!-- ============================================================== -->
+            <!-- Start Navigation -->
+			<?php 
+			include "inc/nav.php";
+			>?
+						
+						<div class="col-lg-9 col-md-9 col-sm-12">
+							
+							<!-- Row -->
+							<div class="row justify-content-between">
+								<div class="col-lg-12 col-md-12 col-sm-12 pb-4">
+									<div class="dashboard_wrap d-flex align-items-center justify-content-between">
+										<div class="arion">
+											<nav class="transparent">
+												<ol class="breadcrumb">
+													<li class="breadcrumb-item"><a href="#">Home</a></li>
+													<li class="breadcrumb-item active" aria-current="page">Payment Settings</li>
+												</ol>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Row -->
+							
+							<div class="row">
+								<div class="col-xl-6 col-lg-6 col-md-12">
+									<div class="dashboard_wrap">
+										
+										<div class="row">
+											<div class="col-xl-12 col-lg-12 col-md-12 mb-4">
+												<h6 class="m-0">Currency Settings</h6>
+											</div>
+										</div>
+										
+										<div class="row justify-content-center">
+											<div class="col-xl-12 col-lg-12 col-md-12">
+												<form>
+													<div class="form-group smalls">
+														<label>System Currency*</label>
+														<div class="simple-input">
+															<select id="crn" class="form-control">
+																<option value="">&nbsp;</option>
+																<option value="1">USD</option>
+																<option value="2">NRI</option>
+																<option value="3">Yuro</option>
+																<option value="4">Pound</option>
+															</select>
+														</div>
+													</div>
+													<div class="form-group smalls">
+														<label>Currency Position</label>
+														<div class="simple-input">
+															<select id="psst" class="form-control">
+																<option value="">&nbsp;</option>
+																<option value="1">Left</option>
+																<option value="2">Right</option>
+															</select>
+														</div>
+													</div>
+													<div class="form-group smalls">
+														<button class="btn theme-bg text-white" type="button">Save & Update</button>
+													</div>
+												</form>
+											</div>
+										</div>
+										
+									</div>
+									
+									<div class="dashboard_wrap">
+
+										<div class="row">
+											<div class="col-xl-12 col-lg-12 col-md-12 mb-4">
+												<h6 class="m-0">PayPal Setup</h6>
+											</div>
+										</div>
+										
+										<div class="row justify-content-center">
+											<div class="col-xl-12 col-lg-12 col-md-12">
+												<form>
+													<div class="form-group smalls">
+														<label>Status</label>
+														<div class="d-flex">
+															<div class="drios">
+																<input id="458" class="checkbox-custom" name="paypal" type="radio" checked>
+																<label for="458" class="checkbox-custom-label">Enable</label>
+															</div>
+															<div class="drios ml-3">
+																<input id="459" class="checkbox-custom" name="paypal" type="radio">
+																<label for="459" class="checkbox-custom-label">Disable</label>
+															</div>
+														</div>
+													</div>
+													<div class="form-group smalls">
+														<label>Client ID</label>
+														<input type="text" class="form-control" value="JHKJHSJKFHKSJHFKJS54824" />
+													</div>
+													<div class="form-group smalls">
+														<label>Client ID Production</label>
+														<input type="text" class="form-control" placeholder="123245" />
+													</div>
+													<div class="form-group smalls">
+														<label>Secret Key</label>
+														<input type="text" class="form-control" placeholder="JKHSKGFJSGJTEYUFJSFGSJ" />
+													</div>
+													<div class="form-group smalls">
+														<button class="btn theme-bg text-white" type="button">Save Change</button>
+													</div>
+												</form>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+								
+								<div class="col-xl-6 col-lg-6 col-md-12">
+									<div class="dashboard_wrap">
+										<div class="row">
+											<div class="col-xl-12 col-lg-12 col-md-12 mb-4">
+												<h6 class="m-0">Stripe Settings</h6>
+											</div>
+										</div>
+											
+										<div class="row justify-content-center">
+											<div class="col-xl-12 col-lg-12 col-md-12">
+												<form>
+													<div class="form-group smalls">
+														<label>Status</label>
+														<div class="d-flex">
+															<div class="drios">
+																<input id="448" class="checkbox-custom" name="stripe" type="radio" checked>
+																<label for="448" class="checkbox-custom-label">Enable</label>
+															</div>
+															<div class="drios ml-3">
+																<input id="449" class="checkbox-custom" name="stripe" type="radio">
+																<label for="449" class="checkbox-custom-label">Disable</label>
+															</div>
+														</div>
+													</div>
+													<div class="form-group smalls">
+														<label>Client ID</label>
+														<input type="text" class="form-control" value="JHKJHSJKFHKSJHFKJS54824" />
+													</div>
+													<div class="form-group smalls">
+														<label>Client ID Production</label>
+														<input type="text" class="form-control" placeholder="123245" />
+													</div>
+													<div class="form-group smalls">
+														<label>Secret Key</label>
+														<input type="text" class="form-control" placeholder="JKHSKGFJSGJTEYUFJSFGSJ" />
+													</div>
+													<div class="form-group smalls">
+														<button class="btn theme-bg text-white" type="button">Save Change</button>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							
+							
+						</div>
+					
+					</div>
+					
+				</div>
+			</section>
+			<!-- ============================ Dashboard: Dashboard End ================================== -->
+			
+			<!-- ============================ Call To Action ================================== -->
+			<section class="theme-bg call_action_wrap-wrap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							
+							<div class="call_action_wrap">
+								<div class="call_action_wrap-head">
+									<h3>Do You Have Questions ?</h3>
+									<span>We'll help you to grow your career and growth.</span>
+								</div>
+								<a href="#" class="btn btn-call_action_wrap">Contact Us Today</a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ============================ Call To Action End ================================== -->
+			
+			<!-- ============================ Footer Start ================================== -->
+		<?php
+		include "inc/footer.php";
+		?php
+			<!-- End Modal -->
+			
+			<a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+			
+
+		</div>
+		<!-- ============================================================== -->
+		<!-- End Wrapper -->
+		<!-- ============================================================== -->
+
+		<!-- ============================================================== -->
+		<!-- All Jquery -->
+		<!-- ============================================================== -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/select2.min.js"></script>
+		<script src="assets/js/slick.js"></script>
+		<script src="assets/js/moment.min.js"></script>
+		<script src="assets/js/daterangepicker.js"></script> 
+		<script src="assets/js/summernote.min.js"></script>
+		<script src="assets/js/metisMenu.min.js"></script>	
+		<script src="assets/js/custom.js"></script>
+		<!-- ============================================================== -->
+		<!-- This page plugins -->
+		<!-- ============================================================== -->		
+
+	</body>
+</html>
